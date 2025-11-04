@@ -6,7 +6,7 @@ const Navbar = () => {
     ]
 
   return (
-    <nav className="w-full h-16">
+    <nav className="w-full h-full">
         <div className="w-full h-full flex justify-between items-center">
             <img src="/wenaria.jpg" alt="logo" className="w-12 rounded hover:scale-90"/>
             <ul className="h-full flex gap-5 items-center">
