@@ -1,17 +1,23 @@
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="h-screen w-full flex justify-center">
-      <header className="w-3xl h-full p-2">
+    <div className="min-h-screen w-full flex justify-center text-white">
+      <div className="w-3xl flex flex-col items-center p-2 gap-2">
+        
+        <header className="w-full h-16">
           <Navbar />
-      </header>
-      <main>
-        <Hero />
-      </main>
-    </div>
-  )
-}
+        </header>
 
-export default App
+        <main className="w-full">
+          
+          <Hero />
+        </main>
+
+      </div>
+    </div>
+  );
+};
+
+export default App;
