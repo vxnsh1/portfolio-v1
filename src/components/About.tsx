@@ -8,33 +8,33 @@ const About = () => {
       <LangIcons
         name={"Typescript"}
         imgSrc="/typescript.jpg"
-        width={5}
-        height={5}
+        width={1}
+        height={1}
       />
        ,
         <LangIcons
         name={"Next.js"}
         imgSrc="/nextjs.png"
-        width={6}
-        height={6}
+        width={1}
+        height={1}
       /> ,
       <LangIcons
         name={"React"}
         imgSrc="/react.png"
-        width={6}
-        height={6}
+        width={1}
+        height={1}
       /> ,
         <LangIcons
         name={"Golang"}
         imgSrc="/go.png"
-        width={6}
-        height={6}
+        width={1}
+        height={1}
       /> and
         <LangIcons
         name={"PostgreSQL"}
         imgSrc="/postgresql.png"
-        width={6}
-        height={6}
+        width={1}
+        height={1}
       /> with a strong focus on clean architecture and UI design.
       </p>
     </section>
