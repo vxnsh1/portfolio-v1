@@ -1,4 +1,5 @@
 import LangIcons from "./LangIcons";
+import Socials from "./Socials";
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
         I build fast, scalable web apps using 
       <LangIcons
         name={"Typescript"}
-        imgSrc="/typescript.jpg"
+        imgSrc="/typescript.png"
         width={1}
         height={1}
       />
@@ -37,6 +38,10 @@ const About = () => {
         height={1}
       /> with a strong focus on clean architecture and UI design.
       </p>
+      <Socials />
+
+      <div className="w-full border-b border-gray-900 mt-10"></div>
+      {/* <embed src="https://jandee.vercel.app/vxnsh1?redias=3&margin=2&footer=false&weeks=false" className="w-[800px] h-[250px]"/> */}
     </section>
   );
 };
