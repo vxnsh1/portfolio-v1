@@ -4,13 +4,14 @@ const Work = () => {
   return (
     <section className="">
       <div className="w-full flex justify-between items-center">
-        <h1 className="text-4xl mb-10">Work<sup className="text-sm opacity-40 relative -top-5">01</sup></h1>
+        <h2 className="text-4xl mb-10">Work<sup className="text-sm opacity-40 relative -top-5">01</sup></h2>
         <p className="opacity-40 relative -top-3">─── click card to know more</p>
       </div>
 
       <div className="w-full">
           <Accordion />
       </div>
+      <div className="w-full border-b border-gray-900 mt-10"></div>
     </section>
   )
 }

@@ -41,7 +41,7 @@ const About = () => {
       <Socials />
 
       <div className="w-full border-b border-gray-900 mt-10"></div>
-      {/* <embed src="https://jandee.vercel.app/vxnsh1?redias=3&margin=2&footer=false&weeks=false" className="w-[800px] h-[250px]"/> */}
+      
     </section>
   );
 };

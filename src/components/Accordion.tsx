@@ -229,7 +229,7 @@ const cards = [
     ctaText: <FiGithub />,
     status: "Completed",
     ctaLink: "https://github.com/vxnsh1/movie-app",
-    tech: ["/react.png", "/typescript.png", "/tailwind.png", "/appwrite.png"],
+    tech: ["/react.png", "/javascript.png", "/tailwind.png", "/appwrite.png"],
     content: () => {
       return (
         <p>
