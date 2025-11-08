@@ -1,11 +1,15 @@
+import ReactLenis, { useLenis } from "lenis/react";
 import About from "./components/About";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 
 const App = () => {
+  
+
   return (
     <div className="min-h-screen w-full flex justify-center text-white bg-black overflow-x-hidden">
+      <ReactLenis root/>
       {/* Main container */}
       <div className="w-full max-w-3xl flex flex-col items-center p-5 gap-20">
         

@@ -40,6 +40,13 @@ const About = () => {
       </p>
       <Socials />
 
+      <iframe
+  src={`https://jandee.vercel.app/vxnsh1?redias=3&margin=2&footer=true&weeks=false`}
+  style={{ width: "750px", height: "auto", border: "none" }}
+  title="GitHub Contributions"
+/>
+
+
       <div className="w-full border-b border-gray-900 mt-10"></div>
       
     </section>
