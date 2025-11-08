@@ -5,7 +5,7 @@ const Navbar = () => {
   const navLinks: string[] = ["Work", "Projects"];
 
   return (
-    <nav className="w-full px-3 md:px-8 py-3">
+    <nav className="w-full px-1 md:px-8 py-3">
       <TargetCursor spinDuration={0} hideDefaultCursor={true} />
 
       <div className="w-full flex justify-between items-center">
@@ -13,7 +13,7 @@ const Navbar = () => {
         <img
           src="/wenaria.jpg"
           alt="logo"
-          className="w-8 md:w-14 rounded-xl hover:scale-90 transition-transform cursor-target p-1"
+          className="w-10 md:w-14 rounded-xl hover:scale-90 transition-transform cursor-target p-1"
         />
 
         {/* Nav Links */}

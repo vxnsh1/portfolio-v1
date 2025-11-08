@@ -15,14 +15,14 @@ const Socials = () => {
 
   return (
     <div className="">
-      <ul className="flex md:gap-2 justify-center flex-wrap">
+      <ul className="flex md:gap-2 justify-center flex-wrap text-sm">
         {socialLinks.map((link, index) => (
           <li key={index}>
             <a
               href={link.url}
               target={link.url}
               rel="noopener noreferrer"
-              className="inline-flex py-1 px-3 cursor-pointer hover:underline cursor-target text-gray-400 hover:text-white gap-2 items-center"
+              className="inline-flex py-1 px-3 cursor-pointer hover:underline cursor-target text-gray-400 hover:text-white md:gap-2 gap-1 items-center"
             >
               {link.icon ? link.icon : null}
               {link.name}

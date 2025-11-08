@@ -3,6 +3,7 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 const App = () => {
   
@@ -19,10 +20,11 @@ const App = () => {
         </header>
 
         {/* Main content */}
-        <main className="w-full flex flex-col md:gap-10 gap-20">
+        <main className="w-full flex flex-col md:gap-10 gap-15">
           <Hero />
           <About />
           <Work />
+          <Contact />
         </main>
       </div>
     </div>
