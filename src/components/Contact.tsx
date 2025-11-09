@@ -41,7 +41,7 @@ const Contact = () => {
     };
 
     return (
-        <section className="w-full">
+        <section id="contact" className="w-full">
             <div className="w-full flex flex-col justify-between items-center">
                 <div className="flex w-full justify-between items-center">
                     <h2 className="md:text-4xl text-3xl mb-10">Contact<sup className="text-sm opacity-40 relative -top-5">02</sup></h2>
@@ -75,6 +75,7 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
+             <div className="w-full border-b border-gray-900 mt-10"></div>
         </section>
     );
 };

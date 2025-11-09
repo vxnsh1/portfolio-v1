@@ -1,7 +1,11 @@
 import LangIcons from "./LangIcons";
 import Socials from "./Socials";
 
-const About = () => {
+type AboutProps = {
+  onContribLoaded?: () => void;
+};
+
+const About = ({ onContribLoaded }: AboutProps) => {
   return (
     <section className="w-full flex flex-col gap-10 items-center">
       <p className="text-gray-500 leading-10">
@@ -45,6 +49,7 @@ const About = () => {
           src="https://jandee.vercel.app/vxnsh1?redias=3&margin=2&footer=true&weeks=false"
           className="w-full h-auto border-none"
           title="GitHub Contributions"
+          onLoad={() => onContribLoaded && onContribLoaded()}
         />
       </div>
       <div className="w-full border-b border-gray-900 mt-10"></div>

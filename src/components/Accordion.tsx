@@ -262,7 +262,7 @@ const cards = [
         <p>
           A high-energy, K72-styled animated storefront that captures One Piece fandom with immersive micro-interactions and cinematic product pages.
           <br /> <br />
-          This store blends bold, manga-inspired visuals with buttery animations and a conversion-first layout. Customers get a playful, collectible-focused shopping experience with hero animations, dynamic product reveals, and smooth scroll-based transitions that keep users engaged. Built to feel like a mini-experience rather than a plain e-commerce page.
+          This store blends bold, manga-inspired visuals with buttery animations and a conversion-first layout. Customers get a playful, collectible-focused shopping experience with hero animations.
         </p>
       );
     },
@@ -288,7 +288,7 @@ const cards = [
         <p>
           A next-gen AI-powered career mentor that delivers personalized interview prep, resume feedback, and skill-growth guidance — all in one smart dashboard.
           <br /> <br />
-          This project simulates a real-world SaaS platform with complex backend logic, authentication, and scalable architecture. It uses Gemini AI to generate human-like mentorship advice, NeonDB + Prisma for structured data management, and Clerk for secure, production-grade user auth. The app demonstrates mastery of modern full-stack concepts — from UI polish and serverless workflows to database design and AI integration.
+          This project simulates a real-world SaaS platform with complex backend logic, authentication, and scalable architecture. It uses Gemini AI to generate human-like mentorship advice.
         </p>
       );
     },
@@ -306,7 +306,7 @@ const cards = [
         <p>
           A nostalgic static website built during my early days of coding — a love letter to anime culture and the spark that started my web-dev journey.
           <br /> <br />
-          AnimeVerse is a simple yet expressive static site that captures the essence of anime fandom. Built entirely with HTML, CSS, and vanilla JavaScript back in 2022, it serves as a time capsule of my beginner creativity — highlighting core layout fundamentals, DOM interactivity, and thematic storytelling through design. Though not responsive, it marks the foundation of my growth from a curious fan to a creative developer.
+          AnimeVerse is a simple yet expressive static site that captures the essence of anime fandom. Built entirely with HTML, CSS, and vanilla JavaScript back in 2022, it serves as a time capsule of my beginner creativity — highlighting core layout fundamentals.
         </p>
       );
     },

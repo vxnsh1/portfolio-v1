@@ -5,3 +5,8 @@ body{
     font-family: "IBM Plex Mono", monospace;
     color: #fff;
 }
+
+::selection {
+      background-color: rgb(195, 195, 195); /* Background color of the selection */
+      color: black;
+}

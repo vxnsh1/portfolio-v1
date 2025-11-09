@@ -17,7 +17,7 @@ const Hero = () => {
         />
       </div>
       <div className="h-full flex justify-end">
-        <img src="/wenaria.jpg" alt="logo" className="w-28 h-28 max-sm:hidden rounded-full" />
+        <img src="/wenaria.jpg" alt="logo" className="w-24 h-24 max-sm:hidden rounded-full" />
       </div>
     </section>
   );
