@@ -2,7 +2,7 @@ import { useState, type FormEvent } from "react";
 import { BiMailSend, BiCheck } from "react-icons/bi";
 
 const Contact = () => {
-    const [result, setResult] = useState("");
+    const [, setResult] = useState("");
     const [buttonText, setButtonText] = useState("Send Message");
     const [isSubmitting, setIsSubmitting] = useState(false);
 
