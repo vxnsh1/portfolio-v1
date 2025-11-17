@@ -46,7 +46,7 @@ const About = ({ onContribLoaded }: AboutProps) => {
 
       <div className="w-full max-w-[750px] md:h-30 h-24 aspect-3/2">
         <iframe
-          src="https://jandee.vercel.app/vxnsh1?redias=3&margin=2&footer=true&weeks=false"
+          src="https://jandee.vercel.app/vxnsh1?redias=3&margin=2&footer=true&weeks=false&scheme=dark"
           className="w-full h-auto border-none"
           title="GitHub Contributions"
           onLoad={() => onContribLoaded && onContribLoaded()}
