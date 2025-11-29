@@ -10,9 +10,8 @@ import Footer from "./components/Footer";
 const App = () => {
   const [contribLoaded, setContribLoaded] = useState(false);
 
-  // fallback: mark as loaded after 15s in case iframe doesn't load
   useEffect(() => {
-    const t = setTimeout(() => setContribLoaded(true), 15000);
+    const t = setTimeout(() => setContribLoaded(true), 5000);
     return () => clearTimeout(t);
   }, []);
 
