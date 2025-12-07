@@ -97,7 +97,7 @@ export default function ExpandableCardDemo() {
                           key={i}
                           src={logo}
                           alt="tech-logo"
-                          className="h-6 w-6 object-contain opacity-90 hover:opacity-100 transition"
+                          className="h-6 w-6 object-contain rounded opacity-90 hover:opacity-100 transition"
                         />
                       ))}
                     </div>
@@ -145,11 +145,10 @@ export default function ExpandableCardDemo() {
               <motion.div layoutId={`image-${card.title}-${id}`} className="relative">
                 {card.status && (
                   <span
-                    className={`absolute top-3 left-3 z-20 px-3 py-1 rounded-full text-xs font-medium ${
-                      card.status === "Completed"
+                    className={`absolute top-3 left-3 z-20 px-3 py-1 rounded-full text-xs font-medium ${card.status === "Completed"
                         ? "bg-green-500/90 text-white"
                         : "bg-yellow-500/90 text-white"
-                    }`}
+                      }`}
                   >
                     {card.status}
                   </span>
@@ -175,7 +174,7 @@ export default function ExpandableCardDemo() {
                       key={i}
                       src={logo}
                       alt="tech-logo"
-                      className="h-6 w-6 object-contain opacity-90 hover:opacity-100 transition"
+                      className="h-6 w-6 object-contain rounded opacity-90 hover:opacity-100 transition"
                     />
                   ))}
                 </div>
@@ -295,18 +294,17 @@ const cards = [
   },
   {
     description: "",
-    title: "AnimeVerse",
+    title: "Fluent",
     src: "/project-4.png",
-    status: "Completed",
+    status: "In Progress",
     ctaText: <FiGithub />,
-    ctaLink: "https://github.com/vxnsh1/anime-website",
-    tech: ["/html.png", "css.png", "javascript.png"],
+    ctaLink: "https://github.com/vxnsh1/fluent",
+    tech: ["/nextjs.png", "typescript.png", "drizzle.png", "postgresql.png", "tailwind.png", "stripe.png", "shadcn.png"],
     content: () => {
       return (
         <p>
-          A nostalgic static website built during my early days of coding — a love letter to anime culture and the spark that started my web-dev journey.
-          <br /> <br />
-          AnimeVerse is a simple yet expressive static site that captures the essence of anime fandom. Built entirely with HTML, CSS, and vanilla JavaScript back in 2022, it serves as a time capsule of my beginner creativity — highlighting core layout fundamentals.
+          Fluent is a next-gen, Duolingo-style language learning platform featuring guided lessons, immersive characters, AI-powered voices, sound effects, and a fully gamified system of hearts, XP, quests, leaderboards, and a shop. <br /><br />
+          Built with Next.js 14, Drizzle ORM, Neon Postgres, Clerk Auth, Shadcn UI, Tailwind, and Stripe, it simulates a real-world SaaS with server actions.
         </p>
       );
     },
