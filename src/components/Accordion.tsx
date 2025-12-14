@@ -296,7 +296,7 @@ const cards = [
     description: "",
     title: "Fluent",
     src: "/project-4.png",
-    status: "In Progress",
+    status: "Completed",
     ctaText: <FiGithub />,
     ctaLink: "https://github.com/vxnsh1/fluent",
     tech: ["/nextjs.png", "typescript.png", "drizzle.png", "postgresql.png", "tailwind.png", "stripe.png", "shadcn.png"],
