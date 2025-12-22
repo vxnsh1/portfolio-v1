@@ -50,4 +50,8 @@ npm run preview
 
 ## License
 
-MIT
+The source code of this project is licensed under the MIT License.
+
+All personal content, branding, text, images, and portfolio design are © 2025 Vansh Chouhan.  
+Reusing the code is allowed, but copying the portfolio content or presenting it as your own is not permitted.
+
