@@ -1,4 +1,4 @@
-# Portfolio v1
+# Portfolio
 
 A modern, performant portfolio website built with React and TypeScript, featuring smooth animations and interactive UI elements.
 
