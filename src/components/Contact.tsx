@@ -64,7 +64,7 @@ const Contact = () => {
                     <button
                         type="submit"
                         disabled={isSubmitting}
-                        className="flex gap-2 bg-white text-black rounded-xl p-2 w-40 font-medium tracking-tighter justify-center items-center cursor-target disabled:opacity-60"
+                        className="flex gap-2 bg-white text-black rounded-xl p-2 w-40 font-medium tracking-tighter justify-center items-center cursor-target disabled:opacity-60 hover:bg-gray-200 transition"
                     >
                         {buttonText}
                         {buttonText === "Submitted" ? (
