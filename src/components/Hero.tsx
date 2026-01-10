@@ -9,7 +9,7 @@ const Hero = () => {
         </h1>
         <TextType
         className="md:text-3xl text-xl font-medium text-gray-400"
-          text={["A FullStack Developer", "A TypeScript + Golang Builder", "Anime, F1, and Football Enthusiast"]}
+          text={["A Frontend Developer", "A Nextjs + Typescript Builder", "Anime, F1, and Football Enthusiast"]}
           typingSpeed={75}
           pauseDuration={1500}
           showCursor={true}

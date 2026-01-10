@@ -10,7 +10,7 @@ const About = ({ onContribLoaded, contribLoaded = false }: AboutProps) => {
   return (
     <section className="w-full flex flex-col gap-10 items-center">
       <p className="text-gray-500 leading-10">
-        I build fast, scalable web apps using
+        I build fast, responsive, and accessible web interfaces using
         <LangIcons
           name={"Typescript"}
           imgSrc="/typescript.png"
@@ -29,19 +29,26 @@ const About = ({ onContribLoaded, contribLoaded = false }: AboutProps) => {
           imgSrc="/react.png"
           width={1}
           height={1}
-        /> ,
-        <LangIcons
-          name={"Golang"}
-          imgSrc="/go.png"
+        />,
+        <LangIcons 
+          name={"Framer Motion"}
+          imgSrc="/framer-motion.svg"
           width={1}
           height={1}
-        /> and
-        <LangIcons
-          name={"PostgreSQL"}
-          imgSrc="/postgresql.png"
+        />,
+        <LangIcons 
+          name={"GSAP"}
+          imgSrc="/gsap.png"
           width={1}
           height={1}
-        /> with a strong focus on clean architecture and UI design.
+        /> & 
+        <LangIcons 
+          name={"Shadcn/UI"}
+          imgSrc="/shadcn.png"
+          width={1}
+          height={1}
+        />
+        with a sharp eye for UI design and user experience.
       </p>
       <Socials />
 
