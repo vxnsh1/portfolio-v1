@@ -9,7 +9,6 @@ Single-page portfolio application showcasing work, skills, and contact informati
 ## Features
 
 - **Smooth Scroll**: Lenis-powered smooth scroll experience
-- **Custom Cursor**: GSAP-animated interactive cursor with target detection
 - **Typing Animation**: Dynamic text rotation with typewriter effect
 - **Interactive Accordion**: Expandable project cards with detailed information
 - **Dark Theme**: Tailwind-based styling optimized for dark mode
